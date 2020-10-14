@@ -53,10 +53,7 @@ h2{
 }
 
 /* Active/current link */
-.sidebar a.active {
-  background-color: #00cccc;
-  color: white;
-}
+
 
 /* Links on mouse-over */
 .sidebar a:hover:not(.active) {
@@ -99,13 +96,14 @@ div.content {
 #header {
   height:500px;
   text-align: center;
-  background-image: url(blog-1.jpg);
+  background-image: url(images/blog-1.jpg);
   color: white;
   font-size: 30px;
 }
 #header h1{
-  padding-top: 150px;
+  padding-top: 200px;
 }
+
 #about{
   font-size: 15px;
   padding: 30px;
@@ -193,7 +191,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: #4CAF50;
+  background-color: #00cccc;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -201,7 +199,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: #00cccc;
 }
 
 /* Style the container/contact section */
